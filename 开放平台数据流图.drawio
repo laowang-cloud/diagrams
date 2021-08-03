@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-03T02:27:57.155Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36" etag="VOYFUp_NGxQ7iH8Fhejb" version="14.9.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-03T02:42:00.141Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36" etag="O4qR0z7H75vqp4QGGcD4" version="14.9.3" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="946" dy="1758" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -57,7 +57,7 @@
         <mxCell id="xybnSQBX6YIYGxx-96SF-12" value="程序员自己手动录入" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;sketch=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="280" y="120" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="xybnSQBX6YIYGxx-96SF-25" style="edgeStyle=none;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="xybnSQBX6YIYGxx-96SF-16" target="xybnSQBX6YIYGxx-96SF-22">
+        <mxCell id="xybnSQBX6YIYGxx-96SF-37" style="edgeStyle=none;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="xybnSQBX6YIYGxx-96SF-16" target="xybnSQBX6YIYGxx-96SF-35">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="xybnSQBX6YIYGxx-96SF-16" value="企业管理员" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;sketch=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
@@ -66,20 +66,26 @@
         <mxCell id="xybnSQBX6YIYGxx-96SF-26" style="edgeStyle=none;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="xybnSQBX6YIYGxx-96SF-20" target="xybnSQBX6YIYGxx-96SF-22">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="xybnSQBX6YIYGxx-96SF-20" value="营运人员" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;sketch=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="xybnSQBX6YIYGxx-96SF-20" value="运营管理员" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;sketch=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="620" y="30" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="xybnSQBX6YIYGxx-96SF-27" style="edgeStyle=none;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="xybnSQBX6YIYGxx-96SF-22" target="xybnSQBX6YIYGxx-96SF-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="xybnSQBX6YIYGxx-96SF-22" value="&lt;span style=&quot;font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;新增应用、应用类型、配置应用分组&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rounded=1;sketch=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="550" y="140" width="70" height="70" as="geometry" />
+          <mxGeometry x="620" y="140" width="70" height="70" as="geometry" />
         </mxCell>
         <mxCell id="xybnSQBX6YIYGxx-96SF-28" value="mysql" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="70" y="450" width="300" height="90" as="geometry" />
         </mxCell>
         <mxCell id="xybnSQBX6YIYGxx-96SF-32" value="redis" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="435" y="450" width="300" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="xybnSQBX6YIYGxx-96SF-38" style="edgeStyle=none;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="xybnSQBX6YIYGxx-96SF-35" target="xybnSQBX6YIYGxx-96SF-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xybnSQBX6YIYGxx-96SF-35" value="&lt;span style=&quot;font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;申请应用&lt;br&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rounded=1;sketch=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="485" y="140" width="70" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
