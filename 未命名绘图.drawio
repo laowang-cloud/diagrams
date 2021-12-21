@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-21T01:37:02.652Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="brXci-z3rY8bE4Ig8bH2" version="15.8.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-21T01:37:56.051Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="TVI1l3fP774BiJXT1KVW" version="15.8.7" type="github">
   <diagram id="5tkYnwauhvnhv3jedRkB" name="第 1 页">
     <mxGraphModel dx="946" dy="614" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -117,7 +117,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="jnDZiHlCkRoHHYNyK23Y-27" value="会议通知，包含迈聆会议号信息" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1" source="jnDZiHlCkRoHHYNyK23Y-3" target="jnDZiHlCkRoHHYNyK23Y-2">
+        <mxCell id="jnDZiHlCkRoHHYNyK23Y-27" value="会议通知，包含迈聆会议号信息" style="html=1;verticalAlign=bottom;endArrow=open;rounded=0;endFill=0;" edge="1" parent="1" source="jnDZiHlCkRoHHYNyK23Y-3" target="jnDZiHlCkRoHHYNyK23Y-2">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="413" y="578" as="sourcePoint" />
             <mxPoint x="397" y="572" as="targetPoint" />
