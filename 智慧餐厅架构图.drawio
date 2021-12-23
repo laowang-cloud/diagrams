@@ -1,1 +1,22 @@
-<mxfile host="app.diagrams.net" modified="2021-12-23T07:23:19.292Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" version="16.0.0" etag="vEQfVOTXuZk12ULMvbF1" type="github"><diagram id="lS__tn-EDcYkHJAh8nmP">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-12-23T07:31:20.611Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="seNkg21ij5ycAI0ebrBG" version="16.0.0" type="github">
+  <diagram id="lS__tn-EDcYkHJAh8nmP" name="第 1 页">
+    <mxGraphModel dx="946" dy="589" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="i9iX3933UqDzT1ooHTSr-3" value="" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image;image=img/lib/active_directory/database_partition_4.svg;" vertex="1" parent="1">
+          <mxGeometry x="56" y="183" width="137.84" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="i9iX3933UqDzT1ooHTSr-4" value="" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image;image=img/lib/active_directory/cluster_server.svg;" vertex="1" parent="1">
+          <mxGeometry x="346" y="156" width="150" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="i9iX3933UqDzT1ooHTSr-6" value="" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image;image=img/lib/active_directory/cluster_server.svg;" vertex="1" parent="1">
+          <mxGeometry x="346" y="397" width="150" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="i9iX3933UqDzT1ooHTSr-7" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.android.phone2;strokeColor=#82b366;fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="527" y="603" width="108" height="172" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
