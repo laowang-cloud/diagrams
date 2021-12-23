@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-23T07:38:29.488Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="GCln9uujQxKfZVjIwSL_" version="16.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-23T07:40:50.826Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="ugwFIKbE5h9pwJWhWo7t" version="16.0.0" type="github">
   <diagram id="lS__tn-EDcYkHJAh8nmP" name="第 1 页">
     <mxGraphModel dx="1426" dy="769" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -19,11 +19,17 @@
             <mxPoint x="452" y="397" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="i9iX3933UqDzT1ooHTSr-22" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=17;" edge="1" parent="1" source="i9iX3933UqDzT1ooHTSr-6" target="i9iX3933UqDzT1ooHTSr-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i9iX3933UqDzT1ooHTSr-24" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=17;" edge="1" parent="1" source="i9iX3933UqDzT1ooHTSr-6" target="i9iX3933UqDzT1ooHTSr-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="i9iX3933UqDzT1ooHTSr-6" value="" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image;image=img/lib/active_directory/cluster_server.svg;" vertex="1" parent="1">
           <mxGeometry x="346" y="397" width="150" height="150" as="geometry" />
         </mxCell>
         <mxCell id="i9iX3933UqDzT1ooHTSr-7" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.android.phone2;strokeColor=#82b366;fillColor=#d5e8d4;" vertex="1" parent="1">
-          <mxGeometry x="527" y="603" width="108" height="172" as="geometry" />
+          <mxGeometry x="532" y="625" width="108" height="172" as="geometry" />
         </mxCell>
         <mxCell id="i9iX3933UqDzT1ooHTSr-10" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="214" y="625" width="86" height="128" as="geometry" />
@@ -53,6 +59,15 @@
         </mxCell>
         <mxCell id="i9iX3933UqDzT1ooHTSr-20" value="&lt;span style=&quot;font-size: 17px&quot;&gt;Api调用Https&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=0;" vertex="1" parent="1">
           <mxGeometry x="469" y="314" width="115" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="i9iX3933UqDzT1ooHTSr-21" value="&lt;span style=&quot;font-size: 17px&quot;&gt;数据实时发送通道&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="301" y="314" width="83" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="i9iX3933UqDzT1ooHTSr-23" value="&lt;span style=&quot;font-size: 17px&quot;&gt;菜品告警&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="268.46000000000004" y="536" width="83" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="i9iX3933UqDzT1ooHTSr-25" value="&lt;span style=&quot;font-size: 17px&quot;&gt;员工打菜行为数据&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="491" y="556" width="149" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
