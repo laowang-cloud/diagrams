@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-21T13:19:02.893Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36" etag="ZMurAbiGmK5Gtl7KYyJV" version="17.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-21T13:20:34.225Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36" etag="H1ljf1Tzrol-moIj91mi" version="17.1.2" type="github">
   <diagram id="SPEkUk6WOAoECDWZKHqa" name="第 1 页">
     <mxGraphModel dx="1426" dy="794" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -215,9 +215,9 @@
             <mxPoint x="525.0000152587891" y="2412.093421936035" as="targetPoint" />
             <Array as="points">
               <mxPoint x="645" y="1419" />
-              <mxPoint x="530" y="1419" />
-              <mxPoint x="530" y="1983" />
-              <mxPoint x="1239" y="1983" />
+              <mxPoint x="590" y="1419" />
+              <mxPoint x="590" y="1949" />
+              <mxPoint x="1239" y="1949" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -247,9 +247,9 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="583" y="2405" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="580" y="1565" />
-              <mxPoint x="580" y="1950" />
-              <mxPoint x="1239" y="1950" />
+              <mxPoint x="608" y="1565" />
+              <mxPoint x="608" y="1931" />
+              <mxPoint x="1239" y="1931" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -280,6 +280,11 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="pvJ9OsV5mP-wpKOKJbti-73" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="pvJ9OsV5mP-wpKOKJbti-70">
+          <mxGeometry x="-0.8826" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="pvJ9OsV5mP-wpKOKJbti-48" value="Account存在" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="844.5" y="1780" width="145" height="110" as="geometry" />
         </mxCell>
@@ -288,10 +293,10 @@
             <mxPoint x="631.0000152587891" y="2397.820960998535" as="targetPoint" />
             <Array as="points">
               <mxPoint x="629" y="1835" />
-              <mxPoint x="629" y="1923" />
-              <mxPoint x="631" y="1923" />
-              <mxPoint x="631" y="1919" />
-              <mxPoint x="1239" y="1919" />
+              <mxPoint x="629" y="1906" />
+              <mxPoint x="631" y="1906" />
+              <mxPoint x="631" y="1908" />
+              <mxPoint x="1239" y="1908" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -323,8 +328,14 @@
         <mxCell id="pvJ9OsV5mP-wpKOKJbti-63" value="同步失败" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1179" y="1658" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="pvJ9OsV5mP-wpKOKJbti-65" value="结束" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="pvJ9OsV5mP-wpKOKJbti-65" value="结束" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="1179" y="1770" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pvJ9OsV5mP-wpKOKJbti-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="pvJ9OsV5mP-wpKOKJbti-74" target="pvJ9OsV5mP-wpKOKJbti-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pvJ9OsV5mP-wpKOKJbti-74" value="开始" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="893" y="1170" width="48" height="48" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
