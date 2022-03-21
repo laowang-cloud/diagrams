@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-21T13:20:34.225Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36" etag="H1ljf1Tzrol-moIj91mi" version="17.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-21T13:21:43.532Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36" etag="qky9IyNnF6v0yaSGDo9I" version="17.1.2" type="github">
   <diagram id="SPEkUk6WOAoECDWZKHqa" name="第 1 页">
     <mxGraphModel dx="1426" dy="794" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -188,7 +188,7 @@
             <mxPoint x="917" y="1348" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pvJ9OsV5mP-wpKOKJbti-30" value="MAXHUB接收到迈聆数据" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="pvJ9OsV5mP-wpKOKJbti-30" value="MAXHUB接收到迈聆数据" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="857" y="1255" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="pvJ9OsV5mP-wpKOKJbti-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="pvJ9OsV5mP-wpKOKJbti-34" target="pvJ9OsV5mP-wpKOKJbti-35">
@@ -207,7 +207,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pvJ9OsV5mP-wpKOKJbti-34" value="根据staffId&lt;br&gt;判断员工是否存在？" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="pvJ9OsV5mP-wpKOKJbti-34" value="根据staffId&lt;br&gt;判断员工是否存在？" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="844.5" y="1358" width="145" height="110" as="geometry" />
         </mxCell>
         <mxCell id="pvJ9OsV5mP-wpKOKJbti-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="pvJ9OsV5mP-wpKOKJbti-35" target="pvJ9OsV5mP-wpKOKJbti-65">
@@ -221,7 +221,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="pvJ9OsV5mP-wpKOKJbti-35" value="更新Staff" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="pvJ9OsV5mP-wpKOKJbti-35" value="更新Staff" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="645" y="1383" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="pvJ9OsV5mP-wpKOKJbti-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="pvJ9OsV5mP-wpKOKJbti-39" target="pvJ9OsV5mP-wpKOKJbti-42">
@@ -240,7 +240,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pvJ9OsV5mP-wpKOKJbti-39" value="根据userId&lt;br&gt;判断用户是否存在？" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="pvJ9OsV5mP-wpKOKJbti-39" value="根据userId&lt;br&gt;判断用户是否存在？" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="844.5" y="1510" width="145" height="110" as="geometry" />
         </mxCell>
         <mxCell id="pvJ9OsV5mP-wpKOKJbti-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="pvJ9OsV5mP-wpKOKJbti-42" target="pvJ9OsV5mP-wpKOKJbti-65">
@@ -253,13 +253,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="pvJ9OsV5mP-wpKOKJbti-42" value="创建Staff" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="pvJ9OsV5mP-wpKOKJbti-42" value="创建Staff" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="645" y="1535" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="pvJ9OsV5mP-wpKOKJbti-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="pvJ9OsV5mP-wpKOKJbti-45" target="pvJ9OsV5mP-wpKOKJbti-48">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="pvJ9OsV5mP-wpKOKJbti-45" value="根据手机号、邮箱查询Account" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="pvJ9OsV5mP-wpKOKJbti-45" value="根据手机号、邮箱查询Account" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="816" y="1687" width="202" height="56" as="geometry" />
         </mxCell>
         <mxCell id="pvJ9OsV5mP-wpKOKJbti-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="pvJ9OsV5mP-wpKOKJbti-48" target="pvJ9OsV5mP-wpKOKJbti-50">
@@ -285,7 +285,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pvJ9OsV5mP-wpKOKJbti-48" value="Account存在" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="pvJ9OsV5mP-wpKOKJbti-48" value="Account存在" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="844.5" y="1780" width="145" height="110" as="geometry" />
         </mxCell>
         <mxCell id="pvJ9OsV5mP-wpKOKJbti-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="pvJ9OsV5mP-wpKOKJbti-50" target="pvJ9OsV5mP-wpKOKJbti-65">
@@ -300,13 +300,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="pvJ9OsV5mP-wpKOKJbti-50" value="创建User、Staff" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="pvJ9OsV5mP-wpKOKJbti-50" value="创建User、Staff" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="649" y="1805" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="pvJ9OsV5mP-wpKOKJbti-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="pvJ9OsV5mP-wpKOKJbti-53" target="pvJ9OsV5mP-wpKOKJbti-57">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="pvJ9OsV5mP-wpKOKJbti-53" value="根据Account拿到MAXHUB的User" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="pvJ9OsV5mP-wpKOKJbti-53" value="根据Account拿到MAXHUB的User" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="1138" y="1353" width="202" height="56" as="geometry" />
         </mxCell>
         <mxCell id="pvJ9OsV5mP-wpKOKJbti-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="pvJ9OsV5mP-wpKOKJbti-57" target="pvJ9OsV5mP-wpKOKJbti-63">
@@ -319,13 +319,13 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pvJ9OsV5mP-wpKOKJbti-57" value="根据MAXHUB的User&lt;br&gt;查询CVTE下是否存在Staff" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="pvJ9OsV5mP-wpKOKJbti-57" value="根据MAXHUB的User&lt;br&gt;查询CVTE下是否存在Staff" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="1150.75" y="1463" width="176.5" height="130" as="geometry" />
         </mxCell>
         <mxCell id="pvJ9OsV5mP-wpKOKJbti-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="pvJ9OsV5mP-wpKOKJbti-63" target="pvJ9OsV5mP-wpKOKJbti-65">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="pvJ9OsV5mP-wpKOKJbti-63" value="同步失败" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="pvJ9OsV5mP-wpKOKJbti-63" value="同步失败" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="1179" y="1658" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="pvJ9OsV5mP-wpKOKJbti-65" value="结束" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
@@ -334,7 +334,7 @@
         <mxCell id="pvJ9OsV5mP-wpKOKJbti-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="pvJ9OsV5mP-wpKOKJbti-74" target="pvJ9OsV5mP-wpKOKJbti-30">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="pvJ9OsV5mP-wpKOKJbti-74" value="开始" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="pvJ9OsV5mP-wpKOKJbti-74" value="开始" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="893" y="1170" width="48" height="48" as="geometry" />
         </mxCell>
       </root>
