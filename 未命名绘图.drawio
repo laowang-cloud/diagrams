@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-21T12:54:34.629Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36" etag="7b1IDerQK3YKBrKRYkz3" version="17.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-21T13:03:15.038Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36" etag="oZ4-1LOD2fh4uUBxlUvV" version="17.1.2" type="github">
   <diagram id="SPEkUk6WOAoECDWZKHqa" name="第 1 页">
     <mxGraphModel dx="1251" dy="706" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -95,6 +95,93 @@
         </mxCell>
         <mxCell id="e4svGxvoSVPnJ6mWDQuQ-36" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;1. 新增默认停用单，开始时间为同步时间&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;2. 刷新会议室状态&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="288" y="1198" width="228" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="pvJ9OsV5mP-wpKOKJbti-1" value="ML.Staff(迈聆员工)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="1081" y="867" width="140" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="pvJ9OsV5mP-wpKOKJbti-2" value="+ staffId: uuid" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="pvJ9OsV5mP-wpKOKJbti-1">
+          <mxGeometry y="26" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pvJ9OsV5mP-wpKOKJbti-12" value="+ ...: ..." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="pvJ9OsV5mP-wpKOKJbti-1">
+          <mxGeometry y="52" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pvJ9OsV5mP-wpKOKJbti-6" value="ML.User(迈聆用户)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="815" y="867" width="140" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="pvJ9OsV5mP-wpKOKJbti-7" value="+ userId: uuid" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="pvJ9OsV5mP-wpKOKJbti-6">
+          <mxGeometry y="26" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pvJ9OsV5mP-wpKOKJbti-8" value="+ ...: ..." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="pvJ9OsV5mP-wpKOKJbti-6">
+          <mxGeometry y="52" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pvJ9OsV5mP-wpKOKJbti-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="pvJ9OsV5mP-wpKOKJbti-7" target="pvJ9OsV5mP-wpKOKJbti-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pvJ9OsV5mP-wpKOKJbti-11" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="pvJ9OsV5mP-wpKOKJbti-10">
+          <mxGeometry x="-0.8467" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pvJ9OsV5mP-wpKOKJbti-13" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="pvJ9OsV5mP-wpKOKJbti-10">
+          <mxGeometry x="0.7966" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pvJ9OsV5mP-wpKOKJbti-14" value="ML.Staff(MAXHUB员工)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="1315" y="1017" width="140" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="pvJ9OsV5mP-wpKOKJbti-15" value="+ staffId: uuid" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="pvJ9OsV5mP-wpKOKJbti-14">
+          <mxGeometry y="26" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pvJ9OsV5mP-wpKOKJbti-16" value="+ ...: ..." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="pvJ9OsV5mP-wpKOKJbti-14">
+          <mxGeometry y="52" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pvJ9OsV5mP-wpKOKJbti-17" value="MH.User(MAXHUB用户)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="1081" y="1017" width="140" height="77" as="geometry" />
+        </mxCell>
+        <mxCell id="pvJ9OsV5mP-wpKOKJbti-18" value="+ userId: uuid" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="pvJ9OsV5mP-wpKOKJbti-17">
+          <mxGeometry y="26" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pvJ9OsV5mP-wpKOKJbti-19" value="+ ...: ..." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="pvJ9OsV5mP-wpKOKJbti-17">
+          <mxGeometry y="52" width="140" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="pvJ9OsV5mP-wpKOKJbti-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="pvJ9OsV5mP-wpKOKJbti-18" target="pvJ9OsV5mP-wpKOKJbti-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pvJ9OsV5mP-wpKOKJbti-21" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="pvJ9OsV5mP-wpKOKJbti-20">
+          <mxGeometry x="-0.8467" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pvJ9OsV5mP-wpKOKJbti-22" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="pvJ9OsV5mP-wpKOKJbti-20">
+          <mxGeometry x="0.7966" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pvJ9OsV5mP-wpKOKJbti-23" value="MH.Account(MAXHUB账号)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="815" y="1017" width="166" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="pvJ9OsV5mP-wpKOKJbti-24" value="+ accountId: uuid" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="pvJ9OsV5mP-wpKOKJbti-23">
+          <mxGeometry y="26" width="166" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pvJ9OsV5mP-wpKOKJbti-25" value="+ ...: ..." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="pvJ9OsV5mP-wpKOKJbti-23">
+          <mxGeometry y="52" width="166" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pvJ9OsV5mP-wpKOKJbti-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="pvJ9OsV5mP-wpKOKJbti-24" target="pvJ9OsV5mP-wpKOKJbti-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1192" y="1113" as="sourcePoint" />
+            <mxPoint x="1074" y="1061" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pvJ9OsV5mP-wpKOKJbti-27" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="pvJ9OsV5mP-wpKOKJbti-26">
+          <mxGeometry x="-0.8467" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pvJ9OsV5mP-wpKOKJbti-28" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="pvJ9OsV5mP-wpKOKJbti-26">
+          <mxGeometry x="0.7966" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
