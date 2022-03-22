@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-22T11:46:13.166Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36" etag="VQ_id5RwxNeuo-AZL1AY" version="17.1.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-22T11:58:10.588Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36" etag="Hs7EgBFXcw1pKgwyy2ve" version="17.1.3" type="github">
   <diagram id="SPEkUk6WOAoECDWZKHqa" name="第 1 页">
     <mxGraphModel dx="1426" dy="794" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -319,6 +319,14 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="yAKIINRYBZUjT-M5i85h-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="pvJ9OsV5mP-wpKOKJbti-57" target="yAKIINRYBZUjT-M5i85h-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yAKIINRYBZUjT-M5i85h-49" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="yAKIINRYBZUjT-M5i85h-48">
+          <mxGeometry x="-0.6638" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="pvJ9OsV5mP-wpKOKJbti-57" value="根据MAXHUB的User&lt;br&gt;查询CVTE下是否存在Staff" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="1150.75" y="1463" width="176.5" height="130" as="geometry" />
         </mxCell>
@@ -460,6 +468,9 @@
         </mxCell>
         <mxCell id="yAKIINRYBZUjT-M5i85h-36" value="同步失败" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="1116.5" y="2485" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yAKIINRYBZUjT-M5i85h-47" value="创建Staff，但User取MAXHUB的" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1335" y="1658" width="197" height="59" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
