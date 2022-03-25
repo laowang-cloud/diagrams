@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-25T03:25:24.520Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36" etag="3KcBL4TxwaAAcY-RIOhQ" version="17.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-25T03:37:43.938Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36" etag="ODk6HSxUiyBTtfkPLzvK" version="17.1.4" type="github">
   <diagram id="SPEkUk6WOAoECDWZKHqa" name="第 1 页">
-    <mxGraphModel dx="1826" dy="794" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2226" dy="794" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -660,6 +660,62 @@
         </mxCell>
         <mxCell id="ll0sG_Eh_UYOz_0PXbpD-31" value="结束" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="209" y="1265" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ll0sG_Eh_UYOz_0PXbpD-39" value="数据库" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-89" y="1578" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="ll0sG_Eh_UYOz_0PXbpD-40" value="迈聆会议室管理系统" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-266" y="1578" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="ll0sG_Eh_UYOz_0PXbpD-45" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="ll0sG_Eh_UYOz_0PXbpD-40">
+          <mxGeometry x="45" y="85" width="10" height="183" as="geometry" />
+        </mxCell>
+        <mxCell id="ll0sG_Eh_UYOz_0PXbpD-48" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="ll0sG_Eh_UYOz_0PXbpD-40">
+          <mxGeometry x="47" y="196" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ll0sG_Eh_UYOz_0PXbpD-49" value="兼容占用为停用进行展示" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="ll0sG_Eh_UYOz_0PXbpD-48" parent="ll0sG_Eh_UYOz_0PXbpD-40">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="52" y="176" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="82" y="176" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ll0sG_Eh_UYOz_0PXbpD-41" value="前端" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-452" y="1578" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="ll0sG_Eh_UYOz_0PXbpD-42" value="查询会议室状态" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1" source="ll0sG_Eh_UYOz_0PXbpD-41" target="ll0sG_Eh_UYOz_0PXbpD-40">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="-417" y="1660" as="sourcePoint" />
+            <mxPoint x="-337" y="1660" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-323" y="1672" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ll0sG_Eh_UYOz_0PXbpD-43" value="查询数据" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1" source="ll0sG_Eh_UYOz_0PXbpD-40" target="ll0sG_Eh_UYOz_0PXbpD-39">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="-198" y="1716" as="sourcePoint" />
+            <mxPoint x="-118" y="1716" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-79" y="1707" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ll0sG_Eh_UYOz_0PXbpD-44" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="1" source="ll0sG_Eh_UYOz_0PXbpD-39" target="ll0sG_Eh_UYOz_0PXbpD-40">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-70" y="1730" as="sourcePoint" />
+            <mxPoint x="-150" y="1730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ll0sG_Eh_UYOz_0PXbpD-50" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="1" source="ll0sG_Eh_UYOz_0PXbpD-40" target="ll0sG_Eh_UYOz_0PXbpD-41">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-276" y="1851" as="sourcePoint" />
+            <mxPoint x="-356" y="1851" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-384" y="1833" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
