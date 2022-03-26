@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-26T01:44:32.799Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36" etag="oSvmefgfKt5k4dwqjx__" version="17.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-26T01:58:28.302Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36" etag="RWode7kYCUvB8XlXZrH2" version="17.2.2" type="github">
   <diagram id="SPEkUk6WOAoECDWZKHqa" name="第 1 页">
-    <mxGraphModel dx="1819" dy="567" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2158" dy="756" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -224,17 +224,6 @@
         <mxCell id="pvJ9OsV5mP-wpKOKJbti-34" value="根据staffId&lt;br&gt;判断员工是否存在？" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="844.5" y="1358" width="145" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="pvJ9OsV5mP-wpKOKJbti-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="pvJ9OsV5mP-wpKOKJbti-35" target="pvJ9OsV5mP-wpKOKJbti-65" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="525.0000152587891" y="2412.093421936035" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="645" y="1419" />
-              <mxPoint x="590" y="1419" />
-              <mxPoint x="590" y="1949" />
-              <mxPoint x="1239" y="1949" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="pvJ9OsV5mP-wpKOKJbti-35" value="更新Staff" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="645" y="1383" width="120" height="60" as="geometry" />
         </mxCell>
@@ -257,16 +246,6 @@
         <mxCell id="pvJ9OsV5mP-wpKOKJbti-39" value="根据userId&lt;br&gt;判断用户是否存在？" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="844.5" y="1510" width="145" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="pvJ9OsV5mP-wpKOKJbti-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" parent="1" source="pvJ9OsV5mP-wpKOKJbti-42" target="pvJ9OsV5mP-wpKOKJbti-65" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="583" y="2405" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="608" y="1565" />
-              <mxPoint x="608" y="1931" />
-              <mxPoint x="1239" y="1931" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="pvJ9OsV5mP-wpKOKJbti-42" value="创建Staff" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="645" y="1535" width="120" height="60" as="geometry" />
         </mxCell>
@@ -284,35 +263,8 @@
             <mxPoint x="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pvJ9OsV5mP-wpKOKJbti-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="pvJ9OsV5mP-wpKOKJbti-48" target="pvJ9OsV5mP-wpKOKJbti-53" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1239" y="1345" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="1077" y="1835" />
-              <mxPoint x="1077" y="1297" />
-              <mxPoint x="1239" y="1297" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="pvJ9OsV5mP-wpKOKJbti-73" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="pvJ9OsV5mP-wpKOKJbti-70" vertex="1" connectable="0">
-          <mxGeometry x="-0.8826" y="4" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="pvJ9OsV5mP-wpKOKJbti-48" value="Account存在" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="844.5" y="1780" width="145" height="110" as="geometry" />
-        </mxCell>
-        <mxCell id="pvJ9OsV5mP-wpKOKJbti-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" parent="1" source="pvJ9OsV5mP-wpKOKJbti-50" target="pvJ9OsV5mP-wpKOKJbti-65" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="631.0000152587891" y="2397.820960998535" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="629" y="1835" />
-              <mxPoint x="629" y="1906" />
-              <mxPoint x="631" y="1906" />
-              <mxPoint x="631" y="1908" />
-              <mxPoint x="1239" y="1908" />
-            </Array>
-          </mxGeometry>
         </mxCell>
         <mxCell id="pvJ9OsV5mP-wpKOKJbti-50" value="创建User、Staff" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="649" y="1805" width="120" height="60" as="geometry" />
@@ -487,9 +439,7 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1299" y="1809" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1431" y="1807" />
-              <mxPoint x="1329" y="1807" />
-              <mxPoint x="1329" y="1809" />
+              <mxPoint x="1431" y="1809" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -757,6 +707,17 @@
         </mxCell>
         <mxCell id="EjDrMi-J3UMId7Fgatk5-19" value="创建Staff&lt;br&gt;User取MAXHUB中已存在的" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="1907" y="1670" width="197" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="EjDrMi-J3UMId7Fgatk5-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EjDrMi-J3UMId7Fgatk5-20" target="pvJ9OsV5mP-wpKOKJbti-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EjDrMi-J3UMId7Fgatk5-22" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EjDrMi-J3UMId7Fgatk5-21">
+          <mxGeometry x="-0.1985" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EjDrMi-J3UMId7Fgatk5-20" value="Account存在" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="1166.5" y="1182" width="145" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
