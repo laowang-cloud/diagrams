@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-06-08T02:15:50.389Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="QY3wgZHvyhc2zIZI16Eu" version="17.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-08T02:17:07.447Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="AM_pklDEWFHaXV2IMCOx" version="17.2.3" type="github">
   <diagram id="krpdeuUsel4yBSgga6Du" name="第 1 页">
-    <mxGraphModel dx="1426" dy="794" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2226" dy="794" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -64,6 +64,67 @@
         </mxCell>
         <mxCell id="90hssZY8VLej_T3yfF7d-17" value="问题：staffId取谁都不合适" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="329.5" y="622" width="185" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="90hssZY8VLej_T3yfF7d-18" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-705" y="115" width="199" height="328" as="geometry" />
+        </mxCell>
+        <mxCell id="90hssZY8VLej_T3yfF7d-19" value="MAXHUB" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-659" y="123" width="114" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="90hssZY8VLej_T3yfF7d-20" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-279" y="115" width="188" height="329" as="geometry" />
+        </mxCell>
+        <mxCell id="90hssZY8VLej_T3yfF7d-21" value="MindLinker" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-244" y="123" width="114" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="90hssZY8VLej_T3yfF7d-22" value="Staff" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-662" y="193" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="90hssZY8VLej_T3yfF7d-23" value="Staff" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-233" y="193" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="90hssZY8VLej_T3yfF7d-24" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="90hssZY8VLej_T3yfF7d-22" target="90hssZY8VLej_T3yfF7d-23">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-458" y="262" as="sourcePoint" />
+            <mxPoint x="-408" y="212" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="90hssZY8VLej_T3yfF7d-25" value="员工id相等&lt;br&gt;staff1==staff2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="90hssZY8VLej_T3yfF7d-24">
+          <mxGeometry x="-0.2039" y="4" relative="1" as="geometry">
+            <mxPoint x="16" y="-13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="90hssZY8VLej_T3yfF7d-26" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="90hssZY8VLej_T3yfF7d-27" target="90hssZY8VLej_T3yfF7d-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="90hssZY8VLej_T3yfF7d-27" value="Meeting" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-665.5" y="312" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="90hssZY8VLej_T3yfF7d-28" value="Meeting" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-235" y="312" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="90hssZY8VLej_T3yfF7d-29" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="90hssZY8VLej_T3yfF7d-27" target="90hssZY8VLej_T3yfF7d-28">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-490" y="372" as="sourcePoint" />
+            <mxPoint x="-440" y="322" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="90hssZY8VLej_T3yfF7d-30" value="会议同步（staffId一致，不需要转换)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="90hssZY8VLej_T3yfF7d-29">
+          <mxGeometry x="-0.2947" y="2" relative="1" as="geometry">
+            <mxPoint x="52" y="-5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="90hssZY8VLej_T3yfF7d-31" value="Room.order" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-443" y="548" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="90hssZY8VLej_T3yfF7d-32" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="90hssZY8VLej_T3yfF7d-28" target="90hssZY8VLej_T3yfF7d-31">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-329.9961016949153" y="417" as="sourcePoint" />
+            <mxPoint x="-164.06389830508465" y="593" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="90hssZY8VLej_T3yfF7d-33" value="order.staffId、userId一致" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-496" y="625" width="237.5" height="33" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
