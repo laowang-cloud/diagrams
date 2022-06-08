@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-08T02:38:17.398Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="8ySJJLZBy_QZmJtzp5xJ" version="17.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-08T02:41:05.118Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="0twSWD6RojffHlS6Lhk6" version="17.2.3" type="github">
   <diagram id="krpdeuUsel4yBSgga6Du" name="第 1 页">
     <mxGraphModel dx="2226" dy="794" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -130,7 +130,7 @@
           <mxGeometry x="344" y="656" width="222" height="86" as="geometry" />
         </mxCell>
         <mxCell id="90hssZY8VLej_T3yfF7d-35" value="Order" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="342" y="755" width="140" height="130" as="geometry" />
+          <mxGeometry x="342" y="755" width="140" height="182" as="geometry" />
         </mxCell>
         <mxCell id="90hssZY8VLej_T3yfF7d-36" value="+ staffId" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="90hssZY8VLej_T3yfF7d-35">
           <mxGeometry y="26" width="140" height="26" as="geometry" />
@@ -138,14 +138,20 @@
         <mxCell id="90hssZY8VLej_T3yfF7d-37" value="+ userId" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="90hssZY8VLej_T3yfF7d-35">
           <mxGeometry y="52" width="140" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="90hssZY8VLej_T3yfF7d-39" value="+ mlStaffId" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="90hssZY8VLej_T3yfF7d-35">
+        <mxCell id="90hssZY8VLej_T3yfF7d-41" value="+ companyId" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="90hssZY8VLej_T3yfF7d-35">
           <mxGeometry y="78" width="140" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="90hssZY8VLej_T3yfF7d-38" value="+ mlUserId" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="90hssZY8VLej_T3yfF7d-35">
+        <mxCell id="90hssZY8VLej_T3yfF7d-39" value="+ mlStaffId" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="90hssZY8VLej_T3yfF7d-35">
           <mxGeometry y="104" width="140" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="90hssZY8VLej_T3yfF7d-40" value="每次更新数据必须更新这4个字段" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="342" y="905" width="185" height="18" as="geometry" />
+        <mxCell id="90hssZY8VLej_T3yfF7d-38" value="+ mlUserId" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="90hssZY8VLej_T3yfF7d-35">
+          <mxGeometry y="130" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="90hssZY8VLej_T3yfF7d-42" value="+ mlCompanyId" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="90hssZY8VLej_T3yfF7d-35">
+          <mxGeometry y="156" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="90hssZY8VLej_T3yfF7d-40" value="保存数据必须写入对方的3个字段" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="336" y="945" width="185" height="18" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
