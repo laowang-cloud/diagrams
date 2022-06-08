@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-08T02:17:07.447Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="AM_pklDEWFHaXV2IMCOx" version="17.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-08T02:22:32.824Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="mK38ClQrOpQRxfbGwEET" version="17.2.3" type="github">
   <diagram id="krpdeuUsel4yBSgga6Du" name="第 1 页">
     <mxGraphModel dx="2226" dy="794" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -62,8 +62,8 @@
             <mxPoint x="640.9361016949154" y="593" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="90hssZY8VLej_T3yfF7d-17" value="问题：staffId取谁都不合适" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="329.5" y="622" width="185" height="31" as="geometry" />
+        <mxCell id="90hssZY8VLej_T3yfF7d-17" value="问题：staffId、userId取谁都不合适&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="329.5" y="622" width="212.5" height="24" as="geometry" />
         </mxCell>
         <mxCell id="90hssZY8VLej_T3yfF7d-18" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-705" y="115" width="199" height="328" as="geometry" />
@@ -125,6 +125,9 @@
         </mxCell>
         <mxCell id="90hssZY8VLej_T3yfF7d-33" value="order.staffId、userId一致" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-496" y="625" width="237.5" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="90hssZY8VLej_T3yfF7d-34" value="1. 向集控设备推送信息用到UserId&lt;br&gt;&lt;div&gt;&lt;span&gt;2. 会议室系统查询预约单用到了userId&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;3. 门牌用到了userId&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="344" y="656" width="222" height="86" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
