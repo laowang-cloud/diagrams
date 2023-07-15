@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-07-15T09:04:13.670Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="w4-cdnm8oOYRROC1WaJd" version="21.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-15T09:07:32.355Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="ETCDotYticpAYWrUR0tY" version="21.6.2" type="github">
   <diagram name="第 1 页" id="xs4n87azNwswCmorah3y">
-    <mxGraphModel dx="954" dy="616" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="879" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -425,6 +425,51 @@
         </mxCell>
         <mxCell id="AZZZVH1Z4GccfO3t_m8a-143" value="操作日志组件" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1864" y="1753" width="106" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AZZZVH1Z4GccfO3t_m8a-155" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="AZZZVH1Z4GccfO3t_m8a-154" target="AZZZVH1Z4GccfO3t_m8a-148">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AZZZVH1Z4GccfO3t_m8a-156" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="2299" y="1804" width="288" height="153" as="geometry" />
+        </mxCell>
+        <mxCell id="AZZZVH1Z4GccfO3t_m8a-145" value="会议系统" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="AZZZVH1Z4GccfO3t_m8a-156">
+          <mxGeometry width="288" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="AZZZVH1Z4GccfO3t_m8a-146" value="会议预约" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="AZZZVH1Z4GccfO3t_m8a-156">
+          <mxGeometry y="33" width="288" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AZZZVH1Z4GccfO3t_m8a-147" value="钉钉、outlook同步" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="AZZZVH1Z4GccfO3t_m8a-156">
+          <mxGeometry y="93" width="288" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AZZZVH1Z4GccfO3t_m8a-157" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="2720" y="1793" width="288" height="211" as="geometry" />
+        </mxCell>
+        <mxCell id="AZZZVH1Z4GccfO3t_m8a-151" value="数据同步服务" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="AZZZVH1Z4GccfO3t_m8a-157">
+          <mxGeometry width="288" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="AZZZVH1Z4GccfO3t_m8a-152" value="第三方数据接入" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="AZZZVH1Z4GccfO3t_m8a-157">
+          <mxGeometry y="33" width="288" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AZZZVH1Z4GccfO3t_m8a-153" value="第三方数据转换" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="AZZZVH1Z4GccfO3t_m8a-157">
+          <mxGeometry y="92" width="288" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AZZZVH1Z4GccfO3t_m8a-154" value="数据同步" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="AZZZVH1Z4GccfO3t_m8a-157">
+          <mxGeometry y="151" width="288" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AZZZVH1Z4GccfO3t_m8a-158" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="3131" y="1793" width="288" height="93" as="geometry" />
+        </mxCell>
+        <mxCell id="AZZZVH1Z4GccfO3t_m8a-148" value="会议系统" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="AZZZVH1Z4GccfO3t_m8a-158">
+          <mxGeometry width="288" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="AZZZVH1Z4GccfO3t_m8a-149" value="会议预约" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="AZZZVH1Z4GccfO3t_m8a-158">
+          <mxGeometry y="33" width="288" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AZZZVH1Z4GccfO3t_m8a-159" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;width=24;endSize=7.67;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2604" y="1872" as="sourcePoint" />
+            <mxPoint x="2705" y="1872" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
